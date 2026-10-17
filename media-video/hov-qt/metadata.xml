@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>hougelangley1987@gmail.com</email>
+		<name>Houge Langley</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">HougeLangley/HyperOnlineVideo</remote-id>
+	</upstream>
+	<use>
+		<flag name="kde">
+			Enable the KDE compositor blur effect through KWindowSystem; without it the window falls back to its own painting
+		</flag>
+		<flag name="webengine">Embed the QtWebEngine-based in-app login window; when disabled, platform cookies are imported manually</flag>
+	</use>
+</pkgmetadata>

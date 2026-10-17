@@ -2045,6 +2045,14 @@ from_pattern = '"major":(\d+),"minor":(\d+),"releaseNum":(\d+)'
 to_pattern = '\1.\2.\3'
 github_account = "Jack77793"
 
+["media-video/hov-qt"]
+source = "github"
+github = "HougeLangley/HyperOnlineVideo"
+use_latest_release = true
+prefix = "v"
+github_account = "HougeLangley"
+autobump = true
+
 ["media-video/implay"]
 source = "github"
 github = "tsl0922/ImPlay"
